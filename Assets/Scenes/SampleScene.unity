@@ -43113,6 +43113,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 655733695}
     m_Modifications:
+    - target: {fileID: 1770553983344349203, guid: 1202585f981a339439857816bc85a5dc, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1085922216}
+    - target: {fileID: 1770553983344349203, guid: 1202585f981a339439857816bc85a5dc, type: 3}
+      propertyPath: distansRay
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 6625814070809067770, guid: 1202585f981a339439857816bc85a5dc, type: 3}
       propertyPath: m_LocalPosition.x
       value: -92.9
