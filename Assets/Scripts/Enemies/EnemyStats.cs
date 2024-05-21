@@ -37,7 +37,6 @@ public class EnemyStats : MonoBehaviour
     private void Die()
     {
         Instantiate(deathEffect, transform.position, transform.rotation);
-        Debug.Log("Enemy down!");
         Destroy(gameObject);
     }
 }
