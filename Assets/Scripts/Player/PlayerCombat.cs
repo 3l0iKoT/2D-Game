@@ -72,7 +72,7 @@ public class PlayerCombat : MonoBehaviour
 
             foreach(Collider2D enemy in hitEnemies)
             {
-                enemy.GetComponent<EnemyStats>().TakeDamage(attackDamage);
+                enemy.GetComponent<EnemyManager>().TakeDamage(attackDamage);
                 enemyRB = enemy.GetComponent<Rigidbody2D>();
                 enemyRB.AddForce(Vector2.right * Mathf.Sign(enemy.transform.position.x - transform.position.x) * impactForce, ForceMode2D.Impulse);
             }

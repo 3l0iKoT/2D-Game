@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class EnemyyManager : MonoBehaviour
+public class EnemyManager : MonoBehaviour
 {
     [SerializeField] private float maxHealth = 100f;
-    [SerializeField] private GameObject deathEffect;
+    [SerializeField] GameObject deathEffect;
     private float currentHealth;
     private Animator anim;
     private Rigidbody2D rb;

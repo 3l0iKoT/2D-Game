@@ -35022,6 +35022,7 @@ GameObject:
   - component: {fileID: 1085922217}
   - component: {fileID: 1085922221}
   - component: {fileID: 1085922222}
+  - component: {fileID: 1085922223}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -35121,7 +35122,7 @@ Transform:
   m_GameObject: {fileID: 1085922216}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -75.1, y: 7.3, z: 0}
+  m_LocalPosition: {x: -0.96, y: 0.32, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -35177,6 +35178,22 @@ MonoBehaviour:
   attackDecelerationMult: 2
   attackDamage: 15
   impactForce: 1.5
+--- !u!114 &1085922223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1085922216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6c919d73039f9343a570bd71a9ce669, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathHeight: -5.5
+  playerHealth: 100
+  deathEffect: {fileID: 4795313828826089095, guid: dcfe92d257586434bb583d58efd24658, type: 3}
+  playerHealthText: {fileID: 0}
 --- !u!1 &1147425632
 GameObject:
   m_ObjectHideFlags: 0
